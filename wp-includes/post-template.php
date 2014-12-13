@@ -239,7 +239,7 @@ function get_the_content( $more_link_text = null, $strip_teaser = false ) {
 	$post = get_post();
 
 	if ( null === $more_link_text )
-		$more_link_text = __( '(more&hellip;)' );
+		$more_link_text = __( 'Read more' );
 
 	$output = '';
 	$has_teaser = false;
